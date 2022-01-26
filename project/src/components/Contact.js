@@ -1,10 +1,10 @@
-import "../../src/index.css";
-import Form from "./Form";
+// import "../../src/index.css";
+// import Form from "./Form";
 
-function Contact({ Form }) {
-    return(
-        <h2 onClick={Form}>&#8801;</h2>
-    )
-}
+// function Contact({ Form }) {
+//     return(
+        
+//     )
+// }
 
-export default Contact;
+// export default Contact;

@@ -1,5 +1,22 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+/* Change color and size */
+.hamburger-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 200%;
+    color: blue;
+}
+
+.form-hidden {
+    display: none;
+}
+
+.form-visible {
+    color: red;
 }
