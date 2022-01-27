@@ -13,10 +13,23 @@
     color: blue;
 }
 
+.contact-form {
+    background-color: blue;
+    opacity: 0.4;
+}
+
 .form-hidden {
     display: none;
 }
 
 .form-visible {
     color: red;
+}
+
+.main-page {
+    border: 1px solid black;
+}
+
+p {
+    margin: 0;
 }

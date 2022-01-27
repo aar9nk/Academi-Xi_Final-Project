@@ -2,12 +2,13 @@ import "../../src/index.css";
 import Button from "./Button";
 import { useState } from "react";
 
-function Form() {
+function More() {
     const [showForm, setShowForm] = useState(false);
 
     const toggleForm = () => {
         setShowForm(!showForm);
     }
+    console.log(showForm);
 
     return(        
         <div>
@@ -17,6 +18,7 @@ function Form() {
     )
 }
 
-export default Form;
+export default More;
 
+//doesn't work. ???
 

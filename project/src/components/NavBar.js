@@ -1,7 +1,7 @@
 import "../../src/index.css";
 import { useState } from "react";
 import Contact from "./Contact";
-import Form from "./Form";
+import More from "./More";
 import Button from "./Button";
 
 function NavBar() {
@@ -16,7 +16,7 @@ function NavBar() {
             <h2>&#x27A2; Mitch</h2>
             <h2>&#x260E; 0400 000 000</h2>
             <h2>&#x2709; mitch@fake.com</h2>
-            <Form />
+            <More />
         </div>
     )
 }
@@ -31,9 +31,9 @@ export default NavBar;
 
 
 
-// { showForm ? <Form className="form-hidden" /> : <Form className="form-visible" /> }
+// { showForm ? <Form className="form-hidden" /> : <More className="form-visible" /> }
 
-// {<Form />
+// {<More />
 
 // <h2 className="hamburger-button" onClick={setShowForm}>&#8801;</h2>
 // {
