@@ -5,18 +5,18 @@ import { useState } from "react";
 function Form() {
     const [showForm, setShowForm] = useState(false);
 
-    return(
-        <>
-        <Button onClick={!setShowForm} />
-        {console.log(showForm)}
-        <div className={ showForm ? "form-visible" : "form-hidden" }>
-            <h1>HI</h1>
-            {/* <form>
-                <input type="text">Hello</input>
-            </form> */}
+    const toggleForm = () => {
+        setShowForm(!showForm);
+    }
+
+    return(        
+        <div>
+            <h1 className={showForm ? "form-visible" : "form-hidden"}>Hello</h1> 
+            <Button onClick={toggleForm}/>           
         </div>
-        </>
     )
 }
 
 export default Form;
+
+
