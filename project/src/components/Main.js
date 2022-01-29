@@ -4,7 +4,6 @@ import Contact from "./Contact";
 function Main() {
     return(
         <div className="main-page">
-            <Contact />
         </div>
     )
 }
