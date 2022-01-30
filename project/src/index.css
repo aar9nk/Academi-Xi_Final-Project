@@ -21,10 +21,36 @@
 }
 
 
-/* .main-page {
-    border: 1px solid black;
-} */
+.main-page {
+   background-color: red;
+}
+/* get rid of this red, for testing only */
 
 p {
     margin: 0;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.images {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.left-slide {
+    position: absolute;
+    left: 32px;
+    cursor: pointer;
+}
+
+.right-slide {
+    position: absolute;
+    right: 32px;
+    cursor: pointer;
 }
