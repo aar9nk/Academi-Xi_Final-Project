@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    border: 1px solid black;
+    /* delete border, just use for size reference */
 }
 
 /* Change color and size */
@@ -13,18 +15,11 @@
     color: blue;
 }
 
-.contact-form {
+.contact-form:active {
     background-color: blue;
     opacity: 0.4;
 }
 
-.form-hidden {
-    display: none;
-}
-
-.form-visible {
-    color: red;
-}
 
 /* .main-page {
     border: 1px solid black;
