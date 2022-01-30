@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import SliderSites from './SliderSites';
 import "../../src/index.css";
 
 function ImageSlider({ slides }) {
@@ -14,10 +13,6 @@ const length = slides.length;
         setCurrentSlide(currentSlide === 0 ? length -1 : currentSlide -1)
     }
 
-    if (!Array.isArray(slides) || slides.length <= 0) {
-        return null;
-    }
-
     //not sure I'm meant to use if statements in react as it's bad practice???
 
     
@@ -25,7 +20,7 @@ const length = slides.length;
       <div className='slider'>
           <h3 className="left-slide" onClick={previousSlide}>&#x261A;</h3>
           <h3 className="right-slide" onClick={nextSlide}>&#x261B;</h3>          
-          {SliderSites.map((slide, index) => {
+          {slides.map((slide, index) => {
               return(
                   <div key={index}>
                       {index === currentSlide && (

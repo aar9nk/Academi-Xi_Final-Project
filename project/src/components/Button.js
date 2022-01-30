@@ -1,8 +1,8 @@
 import "../../src/index.css";
 
-function Button() {
+function Button({onClick}) {
     return(
-        <button className="hamburger-button">&#8801;</button>
+        <button onClick={onClick} className="hamburger-button">&#8801;</button>
     )
 }
 
